@@ -1,6 +1,4 @@
-{
-    "contractName": "LittleHorseNFTv10",
-    "abi": [
+[
         {
             "inputs": [],
             "stateMutability": "nonpayable",
@@ -754,5 +752,4 @@
             "stateMutability": "payable",
             "type": "function"
         }
-    ]
-}
+]
