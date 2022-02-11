@@ -250,7 +250,7 @@ const setSaleActive = async () => {
 }
 
 const setBaseURI = async () => {
-  const result = await contract.methods.setBaseURI("http://104.248.239.189/")
+  const result = await contract.methods.setBaseURI("http://104.248.239.189:3000/unrevealed/image.gif")
     .send({ from: accounts[0], gas: 0, value: 0 })
     .on('transactionHash', function(hash){
       document.getElementById("web3_message").textContent="Minting...";
